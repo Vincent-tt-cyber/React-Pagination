@@ -1,0 +1,43 @@
+.pagination {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.arrow,
+.page-number {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* color: #fff; */
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.page-number {
+    width: 30px;height: 30px;
+}
+
+.arrow {
+  padding: 5px 10px;
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
