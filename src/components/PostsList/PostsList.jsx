@@ -1,7 +1,6 @@
 import React from "react";
-import PostCard from "../PostCard/POstCard";
 import styles from "./PostsList.module.css";
-
+import PostCard from "../PostCard/PostCard";
 const PostsList = ({ posts }) => {
   return (
     <div className={styles.list}>

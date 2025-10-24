@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./PostCard.module.css";
+
 const PostCard = ({ post }) => {
   return (
     <div className={styles.card}>
